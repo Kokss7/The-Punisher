@@ -69,7 +69,7 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     position: relative;
     display: flex;
     justify-content: center;
@@ -115,6 +115,9 @@ header .button{
     .btn {
       padding: 8px 16px;
     }
+    header{
+      height: 60vh;
+    }
   }
 
 /* section2 */
@@ -149,7 +152,8 @@ header .button{
         display: block;
     }
     .card-1{
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
     }
     
   }
@@ -187,6 +191,18 @@ header .button{
     .koks10 .koks2 .icon i {
       font-size: 30px;
     }
+    .koks10 .icon-card{
+width: 40%;
+    }
+    .koks10{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .koks10 .icon-card{
+      width: 70%;
+          }
   }
 
  /* section4 */
@@ -244,7 +260,7 @@ header .button{
     width: 30%;
   }
   
-  @media screen and (max-width: 770px) {
+  /* @media screen and (max-width: 770px) {
     .input {
       width: 100%;
     }
@@ -273,5 +289,30 @@ header .button{
     }
     .title3 .input1{
         width: 100px;
+    }
+  } */
+  @media screen and (max-width: 750px) {
+    .container{
+      display: block;
+    }
+    .container .title1{
+width:100%;
+    }
+    .container .title2{
+width: 100%;
+    }
+    .container .title3{
+width: 100%;
+margin-top: 2%;
+    }
+    .input{
+      width: 100%;
+      margin-top: 2%;
+    }
+    .input1{
+      width: 100%;
+    }
+    .buttom{
+      text-align: center;
     }
   }
